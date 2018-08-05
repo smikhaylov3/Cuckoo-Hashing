@@ -9,4 +9,9 @@ Otherwise, we push out the value that is there, like a Cuckoo bird pushing it's 
 Then we use the second hash function and insert the pushed out item into table 2. If something is in thtat slot in table 2,
 we use the first hash function to try to find it a place in table 1. 
 If we concede there is no more space in the table after multiple after multiple such swaps, we perform a regrow operation.
+I wrote some fairly comprehensive tests for this implementation, and I think it's fairly functional.
+Once again I would like to thank Dr. Rasmus Pagh and Dr. Flemming Friche Rodler for the orginal paper that gave me inspiration.
+
+![alt text](https://raw.githubusercontent.com/smikhaylov3/Cuckoo-Hashing/master/CuckooHashingTests.png?token=AoIJLk3N9J1ZeR4ccjUZcjIzXwskrsK5ks5bb4O9wA%3D%3D)
+
 
